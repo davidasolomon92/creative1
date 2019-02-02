@@ -1,0 +1,248 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+/* Menu */
+.bg-dark {
+  background-color: #111111 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #8e0000;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #e8e8e8;
+}
+
+.navbar {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.navbar-nav {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+nav li {
+  display: inline-block;
+  width: 25%;
+  margin: 0;
+  padding: 0;
+}
+
+nav img {
+  height: 40px;
+}
+
+nav a {
+  font-size: 2em;
+  font-family: 'Permanent Marker', cursive;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Image Grid */
+body {
+  background-color: #2b2b2b;
+}
+
+.text-block a {
+  font-family: 'Comfortaa', cursive;
+  color: #fff !important;
+  font-size: 1.2em;
+}
+
+h2 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3em;
+  color: #fff !important;
+  margin: 20px;
+}
+
+#news {
+  margin-top: 80px;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Centered text */
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #cccccc;
+  margin-top: 40px;
+  text-align: center;
+}
+
+#background {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  z-index: -1;
+}
+
+#background img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+
+#page-wrap {
+  width: 75%;
+  margin: 80px auto;
+  background-color: #303030;
+  z-index: 1;
+  margin-top: 0;
+  margin-bottom: 0;
+  min-height: 100%;
+}
+
+#video-wrap {
+  width: 75%;
+  margin: 60px auto;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: auto;
+  width: 100%;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  /*position: relative;*/
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0px;
+  max-width: none;
+  z-index: 0;
+  position: relative;
+}
+
+.text-block {
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: none;
+  z-index: 0;
+  position: relative;
+}
+
+#download-button {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 25%;
+  background-color: #111111;
+  min-height: 20px;
+}
+
+.concept-art {
+  display: grid;
+  grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-top: 20px;
+}
+
+/*Characters page*/
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  margin: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* this adds the "card" effect */
+  padding: 16px;
+  text-align: left;
+  background-color: #161616;
+  height: 100%;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.name {
+  margin-top: 0px;
+  font-size: 2em;
+}
+
+.card p {
+  color: #fff;
+  font-family: 'Comfortaa', cursive;
+}
